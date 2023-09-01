@@ -6,12 +6,12 @@ pipeline {
                echo "this is a building code"
             }
         }
-        stage('Test') {
+         stage('Test') {
             steps {
                 ehco "this is testing quality"
             }
         }
-        stage('Deploy') {
+         stage('Deploy') {
             steps {
                 echo "this is deployment process"
             }
